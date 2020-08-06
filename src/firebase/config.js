@@ -18,4 +18,4 @@ import 'firebase/firestore'
   const projectStorage = firebase.storage();
   const projectFirestore = firebase.firestore();
 
-  export default { projectStorage,projectFirestore};
+  export{ projectStorage,projectFirestore};
